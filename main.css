@@ -1,0 +1,118 @@
+/*Common elements*/
+body {
+	font: 400 1.4rem "Open Sans", sans-serif;
+	line-height: 1.8;
+	color: #212121;
+	background-color: #FAFAFA;
+}
+
+.navbar {
+	background-color: #34515e;
+	z-index: 1000;
+	border: 0;
+	padding: 15px;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.navbar li a, .navbar .navbar-brand {
+	color: #fff !important;
+}
+
+.navbar a:hover, .navbar-nav li.active a {
+	color: #ff80ab !important;
+}
+
+nav.navbar.shrink {
+	padding: 0 15px;
+}
+
+/*Mobile navbar*/
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+/*Mobile navbar*/
+.navbar-default .navbar-toggle:focus{
+	background-color: #010027;
+}
+.navbar-default .navbar-toggle:hover {
+	background-color: #3dabd2;
+}
+
+#header {
+	margin-bottom: 0px;
+	padding: 140px 0 60px; /*+80 for navbar*/
+	background-color: #607d8b;
+	text-align: center;
+}
+
+#header h1 {
+	font: 400 56px "Bree Serif", serif !important;
+	margin: 0;
+	color: #fff;
+}
+
+#header span {
+	font-weight: 400;
+	font-size: 20px;
+	color: #8eacbb;
+	margin-bottom: 8px;
+}
+
+#header .container {
+	padding-bottom: 12px;
+}
+
+.container > .content {
+	padding-bottom: 60px;
+    padding-top: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+	font: 400 34px "Bree Serif", serif;
+	color: #607d8b;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.btn, .btn:hover, .btn:focus {
+	color: #fff;
+}
+
+.btn {
+	background-color: #011C4B;
+	transition: 0.5s;
+	width: 100%;
+}
+
+.btn:hover {
+	background-color: #3dabd2;
+}
+
+/*Add-able classes*/
+
+.row-flex, .row-flex > div[class*='col-'] {  
+	display: flex;
+	display: -webkit-flex;
+	flex:1 1 auto;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	align-content: flex-start;
+}
+
+.flex-col {
+	display: flex;
+	display: -webkit-flex;
+	flex: 1 100%;
+	flex-flow: column nowrap;
+}
+
+.bg-white {
+	background-color: #fff;
+}
+
+.bg-light {
+	background-color: #f6f8fa;
+}

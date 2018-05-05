@@ -1,0 +1,22 @@
+#header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	text-align: center;
+}
+
+#header .container {
+	padding-top: 0;
+}
+
+.container {
+	padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+#examples span {
+    font: 400 56px "Bree Serif", serif !important;
+}
