@@ -8,11 +8,10 @@
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="stroop.css">
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:400,600" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 
-<div id="header">
+<!-- <div id="header">
 	<div class="container">
 		<h1>Stroop Effect Test</h1>
 		<span>Click anywhere to begin</span>
@@ -22,9 +21,18 @@
 <div id="instructions" class="container" style="display:none">
 	<h2>Instructions</h2>
 	<p>Say the color of each word, not the word itself.</p>
-</div>
+</div> -->
 
-<div id="examples" class="container" style="display:none">
+<!-- <div id="examples" class="container">
+	<h1>Speech color changer</h1>
+
+    <p class="hints"></p>
+    <div>
+        <p class="output"><em>...diagnostic messages</em></p>
+    </div>
+
+    
+	
 	<h2>Example 1</h2>
 	<span color="red">Red</span>
 	<p>Say "Red"</p>
@@ -37,8 +45,13 @@
 	<h2>Example 4</h2>
 	<span color="red">Green</span>
 	<p>Say "Green"</p>
+</div> -->
+
+<div id="test-cases" class="container">
+	<h2>Set <span id="test-set-num">1</span>, Test Case <span id="test-case-num">1</span></h2>
+	<h2 id="test-word"></h2>
 </div>
 
-<script src="main.js"></script>
+<script src="stroop-effect.js"></script>
 </body>
 </html>
