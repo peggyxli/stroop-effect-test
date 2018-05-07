@@ -17,6 +17,7 @@ body {
     padding-top: 60px;
 }
 
-#examples span {
-    font: 400 56px "Bree Serif", serif !important;
+#test-word {
+    font: 400 56px "Bree Serif", serif;
 }
+
